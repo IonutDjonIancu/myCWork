@@ -16,7 +16,7 @@ int main()
 	{
 		for (j = 0; j < 4; j++)
 		{
-			if (arr[j] > arr[j + 1])
+			if (arr[j] > arr[j + 1])	// you can reverse the sorting by reversing the > into < sign
 			{
 				arr[j] ^= arr[j + 1];
 				arr[j + 1] ^= arr[j];
